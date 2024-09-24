@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Problemas</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <h2>Resolvendo problemas</h2>
+            <button class="btn-proximo" data-proximo="1">Começar</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>O item ainda funciona?</p>
+            <button class="btn-proximo" data-proximo="2">Sim</button>
+            <button class="btn-proximo" data-proximo="3">Não</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Nem relâ!</p>
+            <button class="btn-proximo" data-proximo="9">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você quem quebrou o item?</p>
+            <button class="btn-proximo" data-proximo="4">Sim</button>
+            <button class="btn-proximo" data-proximo="5">Não</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Seu imbecil!</p><p>Alguém sabe que foi você?</p>
+            <button class="btn-proximo" data-proximo="8">Sim</button>
+            <button class="btn-proximo" data-proximo="6">Não</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Alguém pode te culpar?</p>
+            <button class="btn-proximo" data-proximo="8">Sim</button>
+            <button class="btn-proximo" data-proximo="7">Não</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Esconda!</p>
+            <button class="btn-proximo" data-proximo="9">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Então não importa!</p>
+            <button class="btn-proximo" data-proximo="9">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p class="final">Se ferrou!!</p>
+            <button class="btn-proximo" data-proximo="10">Última tentativa</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p class="final">Sem problemas!!</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Dá pra jogar a culpa em alguém?</p>
+            <button class="btn-proximo" data-proximo="9">Sim</button>
+            <button class="btn-proximo" data-proximo="8">Não</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
